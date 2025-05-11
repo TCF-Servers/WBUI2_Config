@@ -1,0 +1,56 @@
+{
+  "WBUI2": {
+    "settings": {
+      "OpenButton": 0,
+      "HideIcon": false,
+      "HideIconAfter": 60,
+      "IconURL": "https://inxserv.fr/ingamecontent/LOGOINXROUGECARRE.png",
+      "DisableIconText": true,
+      "IconPosition": 0,
+      "IconTextColor": 0,
+      "OpenOnStart": true,
+      "OpenOnStartOnlyNewPlayers": true,
+      "UpdateInterval": 12
+    },
+    "tabs": [
+      {
+        "tab1": {
+          "layout": 1,
+          "buttontext": "BIENVENUE",
+          "title1": "RFG PVE !",
+          "text1": "<TextStyle.White>Bienvenue sur les serveurs RFG PVE !</><TextStyle.White>F1 pour acceder a ce menu a nouveau</><TextStyle.Red>N'oubliez pas de rejoindre le Discord avec le bouton juste en dessous !</><TextStyle.Yellow>Vous pouvez egalement visiter notre site dans les boutons en dessous et soutenir le projet en prenant un VIP ou des points ! <3</>",
+          "imageurl": "https://inxserv.fr/ingamecontent/FONDF1.png"
+        }
+      },
+      {
+        "tab2": {
+          "layout": 1,
+          "buttontext": "REGLES",
+          "title1": "REGLES DU SERVEUR",
+          "text1": "1 - REGLES COMMUNAUTAIRE\n- Ticket PVE : merci de ne pas envoyer de message prive aux STAFF, un bot a ete mis en place pour les contacter.\n- Tous messages prives envoyes ne seront pas pris en charge et ne seront pas traites sous peine de sanction.\n- Helpers : leur role est d'aider les joueurs et ils repondront a toutes vos questions ! Ils ne font aucune intervention in-game, ils vous mettrons en relation directe avec un ADMIN si besoin.\n- Tchat : tout echange ecrits ou verbaux comportant des propos racistes, injurieux, homophobes (pseudo compris) seront sanctionnes par un BANNISSEMENT DEFINITIF sur l'ensemble des serveurs RFG.\n- Tribe : Le chef de la tribu est responsable de l'ensemble de ses membres, lors de conflits, vols, roles ! Les admins RFG, comptent sur votre maturite et ne s'occupent pas des disputes au sein de votre tribu ainsi que votre alliance.\nATTENTION : nous vous suggerons de bien connaitre les membres composant votre tribu / Alliance\n2 - REGLEMENT CLUSTER - INX\n2.1 GENERAL\n- Age : + de 16 ans, utiliser le meme nom \"in-game\" et discord.\n- Acte PVP : Toutes actions assimilees a du PVP ou cherchant a nuire un autre joueur, tribu ou l'ensemble de la communaute sera severement sanctionne.\n- Stacking : Interdiction d'empiler dinos les un sur les autres - fait lag le serveur\n- Ressource public : Toutes ressources possedees concernant : la pompe a petrole, gaz vein et le recolteur de seve doivent etre obligatoirement public.\n2.2 DINOS / STUFF / TRANSFERT STUFF\n- Interdiction de claim des dinos abandonnes, si vous en voyez contacter la tribu ou signalez-le via le systeme de ticket.\n2.3 BUGS CONNUS\n- Bugs : Toutes utilisations de bugs (usebugs, exploitbugs,...) sera un ban immediat sans avertissement\n2.4 ALLIANCE / TRIBU / PERSONNAGE\n- Alliance : Soyez vigilant lors de votre alliance avec une autre tribu, le STAFF ne dedommage pas les problemes rencontres en lien avec celle-ci.\n- Tribe : Obligation de creer une tribu lors de votre premiere connexion (solo ou multiple) afin de pouvoir intervenir \"in-game\" en cas de probleme.\n- Personnage : Avoir le meme pseudo \"in-game\" / \"discord\", sans caractere speciaux.\n2.5 REMBOURSEMENT\n- Les admins ne remboursent pas le stuff / dinos / structures / golds sauf cas exceptionnel.\n2.6 PUBLICITE\n- Interdit de faire de la publicite pour d'autres Serveurs ARK, Discord ou de site qui ne sont pas en lien avec la communaute.\n3 - REGLES CONSTRUCTION et LIMITATION BASE\n- Interdiction de build sur les points de spawn des joueurs. Si une base bloque un spawn et des joueurs se retrouvent bloquer dedans, nous supprimerons la base.\n- Spam fonda : Pour definir la zone de votre base, il est interdit de spam des fondations de facon abusive autour de celle-ci, si vous avez un doute n'hesitez pas a faire un ticket pour contacter le STAFF\n- Dimension base : La taille de votre base doit etre proportionnelle au nombre de joueurs de votre equipe.\n- Une base par map par tribue est autorise ! Les avants postes sont autorises sur cette version beta des serveur RFG s'il n'empechent pas un spawn de ressources ou de dinos/points d'interet important.\n- Points de passage : Interdiction de construire dans les grottes a artefacts, obelisques, zone de spawn, zone ressources rares ou abondantes, pop joueurs Mettez votre TP perso en prive.\n- Laissez un passage de facon a ne pas bloquer l'acces pour les membres RFG.\n- Si vous avez un doute, capture ecran + ticket support",
+          "imageurl": "https://inxserv.fr/ingamecontent/FONDF1.png"
+        }
+      }
+    ],
+    "links": [
+      {
+        "link1": {
+          "text": "DISCORD",
+          "url": "https://discord.gg/uy3vx4C3wY"
+        }
+      },
+      {
+        "link2": {
+          "text": "SITE WEB",
+          "url": ""
+        }
+      },
+      {
+        "link3": {
+          "text": "VIPS ET POINTS",
+          "url": ""
+        }
+      }
+    ]
+  }
+}
