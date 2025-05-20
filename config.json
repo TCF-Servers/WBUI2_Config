@@ -6,7 +6,7 @@
 			"openbutton": 0,
 			"hideicon": false,
 			"hideiconafter": 60,
-			"iconurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/Logo_RFG_30.png",
+			"iconurl": "https://raw.githubusercontent.com/RFG-Servers/WBUI2_config/refs/heads/master/Logo_RFG_30.png?token=GHSAT0AAAAAAC6OMYL3MPWKDLMCOT3ZUTTC2BNCPNQ",
 			"disableicontext": true,
 			"iconposition": 3,
 			"icontextcolor": 0,
@@ -18,7 +18,7 @@
 			{
 				"layout": 1,
 				"buttontext": "Bienvenue",
-				"imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+				"imageurl": "https://raw.githubusercontent.com/RFG-Servers/WBUI2_config/refs/heads/master/background_RFG.png?token=GHSAT0AAAAAAC6OMYL2WYI6MCNNJT6F3WIO2BNCPCQ",
 				"content": [
 					{
 						"title": "Bienvenue sur le Cluster RFG PVE, Survivant!",
@@ -29,7 +29,7 @@
       {
         "layout": 3,
         "buttontext": "Settings",
-        "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+        "imageurl": "https://raw.githubusercontent.com/RFG-Servers/WBUI2_config/refs/heads/master/background_RFG.png?token=GHSAT0AAAAAAC6OMYL2WYI6MCNNJT6F3WIO2BNCPCQ",
         "content": [
           {
             "title": "Settings Serveur",
@@ -48,7 +48,7 @@
       {
         "layout": 2,
         "buttontext": "Shop/Points",
-        "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+        "imageurl": "https://raw.githubusercontent.com/RFG-Servers/WBUI2_config/refs/heads/master/background_RFG.png?token=GHSAT0AAAAAAC6OMYL2WYI6MCNNJT6F3WIO2BNCPCQ",
         "content": [
           {
             "title": "Shop",
@@ -63,7 +63,7 @@
 			{
 				"layout": 2,
 				"buttontext": "Règlement",
-				"imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+				"imageurl": "https://raw.githubusercontent.com/RFG-Servers/WBUI2_config/refs/heads/master/background_RFG.png?token=GHSAT0AAAAAAC6OMYL2WYI6MCNNJT6F3WIO2BNCPCQ",
 				"content": [
 					{
 						"title": "1ère partie",
