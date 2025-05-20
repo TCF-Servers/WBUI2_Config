@@ -1,56 +1,95 @@
 {
-  "WBUI2": {
-    "settings": {
-      "OpenButton": 0,
-      "HideIcon": false,
-      "HideIconAfter": 60,
-      "IconURL": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/Logo_RFG_30.png",
-      "DisableIconText": true,
-      "IconPosition": 3,
-      "IconTextColor": 0,
-      "OpenOnStart": true,
-      "OpenOnStartOnlyNewPlayers": true,
-      "UpdateInterval": 12
-    },
-    "tabs": [
+	"WBUI2":
+	{
+		"settings":
+		{
+			"openbutton": 0,
+			"hideicon": false,
+			"hideiconafter": 60,
+			"iconurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/Logo_RFG_30.png",
+			"disableicontext": true,
+			"iconposition": 3,
+			"icontextcolor": 0,
+			"openonstart": true,
+			"openonstartonlynewplayers": true,
+			"updateinterval": 12
+		},
+		"tabs": [
+			{
+				"layout": 1,
+				"buttontext": "Bienvenue",
+				"imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+				"content": [
+					{
+						"title": "Bienvenue sur le Cluster RFG PVE, Survivant!",
+						"text": "Ici, tu trouveras tout ce dont tu as besoin pour bien débuter et t'épanouir dans notre univers.\n\nToutes les informations importantes, comme les liens Discord, les rates du serveur et les commandes, sont à ta disposition.\nQue tu souhaites te connecter à la communauté ou que tu recherches des détails précis sur les paramètres du serveur,\nce menu (F1) est ton point de repère.\n\nSi tu as des questions ou besoin d'aide, n'hésite pas à contacter nos joueurs ou nos équipes. Nous sommes là pour t'accompagner dans ton aventure !\n\n\n\n\n\n\n\n\n<RichColor Color=\"1,0,0,1\">Chaque joueur est tenu de prendre connaissance du règlement avant de rejoindre le serveur.</>\n<RichColor Color=\"1,0,0,1\">N'oubliez pas de rejoindre le Discord avec le bouton juste en dessous !</>\n<TextStyle.White>Vous pouvez également visiter notre site dans les boutons en dessous et soutenir le projet en prenant un VIP ou des points !</>"
+					}
+				]
+			},
       {
-        "tab1": {
-          "layout": 1,
-          "buttontext": "BIENVENUE",
-          "title1": "RFG PVE !",
-          "text1": "<TextStyle.White>Bienvenue sur les serveurs RFG PVE !</><TextStyle.White>F1 pour acceder a ce menu a nouveau</><TextStyle.Red>N'oubliez pas de rejoindre le Discord avec le bouton juste en dessous !</><TextStyle.Yellow>Vous pouvez egalement visiter notre site dans les boutons en dessous et soutenir le projet en prenant un VIP ou des points ! <3</>",
-          "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png"
-        }
+        "layout": 3,
+        "buttontext": "Settings",
+        "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+        "content": [
+          {
+            "title": "Settings Serveur",
+            "text": "XP: <RichColor Color=\"1,0.65,0,1\">x2</>\nRécolte: <RichColor Color=\"1,0.65,0,1\">x3</>\nTaming: <RichColor Color=\"1,0.65,0,1\">x4</>\nIntervalle accouplement: <RichColor Color=\"1,0.65,0,1\">0.3 → 3 fois plus rapide</>\nVitesse accouplement: <RichColor Color=\"1,0.65,0,1\">x10</>\nIncubation œuf: <RichColor Color=\"1,0.65,0,1\">x50</>\nCroissance bébé: <RichColor Color=\"1,0.65,0,1\">x8</>\nConsommation nourriture bébé: <RichColor Color=\"1,0.65,0,1\">x1</>\nImprint: <RichColor Color=\"1,0.65,0,1\">100% → tout le monde</>\nStack objets: <RichColor Color=\"1,0.65,0,1\">x2500 → sauf exception</>\nCycle de jour/nuit: <RichColor Color=\"1,0.65,0,1\">x1</>\nDecay structures: <RichColor Color=\"1,0.65,0,1\">Désactivé</>\nMaximum de créatures apprivoisées: <RichColor Color=\"1,0.65,0,1\">150</>\nMindwipes Illimitées\nAuto-unlock des engrams\nRedémarrage quotidien: <RichColor Color=\"1,0.65,0,1\">06h00 (heure FR)</>\nAvertissements auto: <RichColor Color=\"1,0.65,0,1\">30 min avant redémarrage</>\n\n\n<TextStyle.White>Rates Week-end:</>\n\nXP: <RichColor Color=\"1,0.65,0,1\">x3</>\nRécolte: <RichColor Color=\"1,0.65,0,1\">x4.5</>\nTaming: <RichColor Color=\"1,0.65,0,1\">x6</>"
+          },
+          {
+            "title": "Settings Joueurs",
+            "text": "Nourriture: <RichColor Color=\"1,0.65,0,1\">x0.5 → 2 fois moins de consommation</>\nEau: <RichColor Color=\"1,0.65,0,1\">x0.5 → 2 fois moins de consommation</>\nPoids: <RichColor Color=\"1,0.65,0,1\">x5</>\nDégats: <RichColor Color=\"1,0.65,0,1\">x2</>\nVitesse: <RichColor Color=\"1,0.65,0,1\">Pas d'augmentation de vitesse</>"
+          },
+          {
+            "title": "Settings Dinos",
+            "text": "<TextStyle.White>Sauvages:</>\nNiveau maximum: <RichColor Color=\"1,0.65,0,1\">150</>\nNiveau maximum tek: <RichColor Color=\"1,0.65,0,1\">180</>\nWyvern, Rockdrake niveau maximum: <RichColor Color=\"1,0.65,0,1\">190</>\n\n<TextStyle.White>Tamés:</>\nPoids: <RichColor Color=\"1,0.65,0,1\">x3</>\nVitesse: <RichColor Color=\"1,0.65,0,1\">Pas d'augmentation de vitesse</>\nVitesse vol: <RichColor Color=\"1,0.65,0,1\">Pas d'augmentation de vitesse</>"
+          }
+        ]
       },
       {
-        "tab2": {
-          "layout": 1,
-          "buttontext": "REGLES",
-          "title1": "REGLES DU SERVEUR",
-          "text1": "1 - REGLES COMMUNAUTAIRE\n\n- Ticket PVE : merci de ne pas envoyer de message prive aux STAFF, un bot a ete mis en place pour les contacter.\n- Tous messages prives envoyes ne seront pas pris en charge et ne seront pas traites sous peine de sanction.\n- Helpers : leur role est d'aider les joueurs et ils repondront a toutes vos questions ! Ils ne font aucune intervention in-game, ils vous mettrons en relation directe avec un ADMIN si besoin.\n- Tchat : tout echange ecrits ou verbaux comportant des propos racistes, injurieux, homophobes (pseudo compris) seront sanctionnes par un BANNISSEMENT DEFINITIF sur l'ensemble des serveurs RFG.\n- Tribe : Le chef de la tribu est responsable de l'ensemble de ses membres, lors de conflits, vols, roles ! Les admins RFG, comptent sur votre maturite et ne s'occupent pas des disputes au sein de votre tribu ainsi que votre alliance.\nATTENTION : nous vous suggerons de bien connaitre les membres composant votre tribu / Alliance\n\n2 - REGLEMENT CLUSTER - RFG\n\n2.1 GENERAL\n- Age : + de 16 ans, utiliser le meme nom \"in-game\" et discord.\n- Acte PVP : Toutes actions assimilees a du PVP ou cherchant a nuire un autre joueur, tribu ou l'ensemble de la communaute sera severement sanctionne.\n- Stacking : Interdiction d'empiler dinos les un sur les autres - fait lag le serveur\n- Ressource public : Toutes ressources possedees concernant : la pompe a petrole, gaz vein et le recolteur de seve doivent etre obligatoirement public.\n\n2.2 DINOS / STUFF / TRANSFERT STUFF\n- Interdiction de claim des dinos abandonnes, si vous en voyez contacter la tribu ou signalez-le via le systeme de ticket.\n\n2.3 BUGS CONNUS\n- Bugs : Toutes utilisations de bugs (usebugs, exploitbugs,...) sera un ban immediat sans avertissement\n\n2.4 ALLIANCE / TRIBU / PERSONNAGE\n- Alliance : Soyez vigilant lors de votre alliance avec une autre tribu, le STAFF ne dedommage pas les problemes rencontres en lien avec celle-ci.\n- Tribe : Obligation de creer une tribu lors de votre premiere connexion (solo ou multiple) afin de pouvoir intervenir \"in-game\" en cas de probleme.\n- Personnage : Avoir le meme pseudo \"in-game\" / \"discord\", sans caractere speciaux.\n\n2.5 REMBOURSEMENT\n- Les admins ne remboursent pas le stuff / dinos / structures / points sauf cas exceptionnel.\n\n2.6 PUBLICITE\n- Interdit de faire de la publicite pour d'autres Serveurs ARK, Discord ou de site qui ne sont pas en lien avec la communaute.\n\n3 - REGLES CONSTRUCTION et LIMITATION BASE\n- Interdiction de build sur les points de spawn des joueurs. Si une base bloque un spawn et des joueurs se retrouvent bloquer dedans, nous supprimerons la base.\n- Spam fonda : Pour definir la zone de votre base, il est interdit de spam des fondations de facon abusive autour de celle-ci, si vous avez un doute n'hesitez pas a faire un ticket pour contacter le STAFF\n- Dimension base : La taille de votre base doit etre proportionnelle au nombre de joueurs de votre equipe.\n- Une base par map par tribue est autorise ! Les avants postes sont autorises sur cette version beta des serveur RFG s'il n'empechent pas un spawn de ressources ou de dinos/points d'interet important.\n- Points de passage : Interdiction de construire dans les grottes a artefacts, obelisques, zone de spawn, zone ressources rares ou abondantes, pop joueurs Mettez votre TP perso en prive.\n- Laissez un passage de facon a ne pas bloquer l'acces pour les membres RFG.\n- Si vous avez un doute, capture ecran + ticket support",
-          "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png"
-        }
-      }
-    ],
-    "links": [
-      {
-        "link1": {
-          "text": "DISCORD",
-          "url": "https://discord.gg/uy3vx4C3wY"
-        }
+        "layout": 2,
+        "buttontext": "Shop/Points",
+        "imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+        "content": [
+          {
+            "title": "Shop",
+            "text": "<TextStyle.White>Comment Accéder au shop ?</>\n\n<TextStyle.LightBlue>Joueurs PC:</>\nAppuyez sur F2 pour accéder au shop in-game\n\n<TextStyle.LightBlue>Joueurs PS5 & XBOX:</>\nMaintenir la touche Carré sur PS5 et X sur Xbox pour ouvrir le menu radial et accéder au shop."
+          },
+          {
+            "title": "Points",
+            "text": "<TextStyle.White>Comment obtenir des points ?</>\n\nUne fois verifié sur le discord, bouton en bas si ca n'est pas encore fait, vous obtiendrez des points en jouant et en votant pour le serveur (WIP).\n\n\nVous avez la possibilité d'augmenter la quantité de points que vous obtenez en passant du temps sur le serveur en prenant un VIP et soutenir le serveur au passage !"
+          }
+        ]
       },
+			{
+				"layout": 2,
+				"buttontext": "Règlement",
+				"imageurl": "https://raw.githubusercontent.com/Wulfens/ArkServer/refs/heads/master/background_RFG.png",
+				"content": [
+					{
+						"title": "1ère partie",
+						"text": "<TextStyle.White>1 - RÈGLES GÉNÉRALES</>\n\n1.1 Les langues recommandées sont l'anglais et le français (évitez les discussions prolongées dans d'autres langues).\n\n1.2 Les propos racistes, injurieux, homophobes, sexistes ou discriminatoires, y compris dans les pseudos, sont strictement interdits.\n<RichColor Color=\"1,0,0,1\">Sanction immédiate : bannissement définitif.</>\n\n1.3 Évitez de contacter directement les admins en privé. Utilisez les canaux officiels ou le système de tickets pour toute demande.\n\n1.4 Le respect des règles officielles de WildCard et le TOS de Discord est obligatoire.\n\n<TextStyle.White>2 - RÈGLES IN-GAME</>\n\n.1 Il est obligatoire de créer une tribu dès votre première connexion (solo ou en groupe) afin de permettre une intervention efficace des admins en cas de problème.\n\n2.2 Le chef de la tribu est responsable de l'ensemble de ses membres. En cas de conflits, vols ou litiges internes (tribu ou alliance), les admins ne s'en mêlent pas, sauf cas exceptionnels.ATTENTION : assurez-vous de bien connaître les membres qui composent votre tribu ou alliance.\n\n2.3 Toute action assimilée à du PVP ou visant à nuire à d'autres joueurs sera sanctionnée par un bannissement immédiat et permanent.\n\n2.4 Les actes d'inside (trahison interne) et l'abandon de dinos ou structures sont interdits.\n\n2.5 Il est interdit de stacker les dinos pour éviter de créer du lag.\n\n2.6 L'utilisation de hacks, exploits, duplication, meshing ou bugs, ou la création de lag intentionnel, est formellement interdite. <RichColor Color=\"1,0,0,1\"> Sanction : bannissement immédiat.</>\n\n2.7 Ne pas honorer un échange commercial (arnaque) est interdit.\n\n2.8 Lorsqu'un dino est cagé, reçoit la première dose de torpeur ou est nourri en premier, la tribu ayant effectué cette action détient les droits exclusifs sur le tame.\n<RichColor Color=\"1,0,0,1\">Toute interférence est strictement interdite et sera considérée comme un acte de PVP (bannissement immédiat et permanent).</>\n\n2.9 Une tribu est limitée à 8 membres. Elle doit porter le même nom sur toutes les cartes, et les mêmes joueurs doivent y figurer.\n\n2.10 Le chef de tribu peut être changé si 80% des membres sont d'accord.\n\n2.11 Les admins ne sont jamais tenus de rembourser dinos, objets, structures ou points, mais peuvent le faire à leur discrétion dans des cas exceptionnels.\n\n<RichColor Color=\"1,0,0,1\">Merci de ne surtout pas vous transférer entre maps après une perte : cela écrasera nos sauvegardes, rendant le stuff irrécupérable.</>\n\n<TextStyle.White>3 - CONSTRUCTION</>\n\n3.1 Une seule base par map est autorisée\n\n3.2 Taille de base:\n  - La base doit tenir dans la range de la mangeoire de 10 000 dans tous les cas !\n  - Limite de structures est cap à 15 000 pour tout le monde\n  - Les bases excessivement hautes seront delete\n\n<RichColor Color=\"1,0,0,1\">ATTENTION : respecter la hauteur de la range de la mangeoire posée au sol !</>\n\n3.3 Les structures ou dinos abandonnés dans la nature sont interdits et doivent être supprimés. <RichColor Color=\"1,0,0,1\">En cas de non-respect répété: sanctions appliquées.</>\n\n3.4 Il est interdit de bloquer les accès suivants:\n  - les entrées de grottes\n  - Les Obélisques\n  - Les zones de spawn ou repop de joueurs\n  - Les ressources rares ou abondantes\n  - Les chemins de passage publics\n\n3.5 Le spam de fondations, de piliers ou autres pour définir un périmètre ou claim une zone est interdit, sauf dans la semaine suivant l'ouverture d'une nouvelle map.\n<RichColor Color=\"1,0,0,1\">En cas de doute: ouvrez un ticket.</>\n\n3.6 Les structures inutilisées doivent être supprimées.\n\n"
+					},
+					{
+						"title": "2ème partie",
+						"text": "<TextStyle.White>4 - RÈGLES DE VENTE / ÉCHANGE</>\n\n4.1 Règle de vente de vos créatures\n\nMerci d'utiliser la calculatrice du shop (lien à venir) pour vérifier les prix minimums, déterminer si vos dinos peuvent être vendus non castrés, et savoir si vous avez le droit de les donner gratuitement.\nVoici les règles principales de notre calculateur:\n  - Aucune créature avec des mutations ne peut être vendue non castrée\n  - Interdit de revendre une créature achetée à quelqu'un, sans son accord préalable\n  - Toute vente doit être renseignée dans #déclaration-ventes sur discord\n\n<RichColor Color=\"1,0,0,1\">Le Staff se réserve le droit de ne pas intervenir sur un problème concernant une vente non consignée dans le canal prévu à cet effet.</>\n\n4.2 Règle de don au joueur\nLes dons de créatures, ressources, selles ou stuff ne sont autorisés que s'ils respectent <RichColor Color=\"1,0,0,1\">toutes</> les conditions suivantes\n\nCréatures:\n  - Niveau inférieur à 250\n  - Aucune stat supérieure à 45 points\n  - Taille inférieure ou égale à un certain gabarit: \n(Allosaure pour les carnivores, Stégosaure pour les herbivores, Argentavis pour les volants et Basilosaurus pour les marins)\n\nArmes & Outils:\n  - Maximum 250% dégats pour les objets craftés\n  - Maximum 200% pour les blueprints\n\nArmures:\n  - Maximum 2,5x le montant d'armure primitif\n(Exemple: Flak primitif = 100 armure -> Don Maximum = 250 d'armure)\n  - Maximum 2x pour les blueprints\n\nSelles:\n  - Maximum 80 d'armure pour les selles craftées\n  - Maximum 70 pour les blueprints\n\nRessources:\n  - Vous pouvez vous entraider, mais restez raisonnable, surtout pour les ressources les plus difficile à obtenir, les grosses quantités sont proscrites\n  <RichColor Color=\"1,0,0,1\">- Aucun don de structures ou items Tek</>\n\n<TextStyle.White>4.3 Règles de trade en pour les alliances</>\n\nSi vous souhaitez faire du trade libre (c'est-à-dire sans avoir à respecter les prix minimums) entre tribus d'une même alliance, vous devez obligatoirement vous recenser dans #│alliance sur discord.\n\nLes alliances déclarées ici n'ont pas besoin d'être les mêmes que celles en jeu, mais seules les tribus recensées dans ce channel auront le droit d'effectuer du trade libre.\n\n  - Votre Tribu ne peut faire partie que <RichColor Color=\"1,0,0,1\">d'une seule alliance de free trade</>\n  - Chaque alliance de free trade peut comporter au maximum 3 tribus, en comptant la vôtre\n\n<RichColor Color=\"1,0,0,1\">Avant de pouvoir commencer à trade, votre recensement doit être validé par un administrateur sur discord.</>\n\nUne alliance est un engagement long terme, choisissez bien vos alliés.\n\n<RichColor Color=\"1,0,0,1\">Les tribus qui quittent et rejoignent des alliances à répétition seront bannies à vie du système de free trade.</>\n\n<TextStyle.White>5 - RÈGLES SPÉCIFIQUES (EXTINCTION, OSD, TITANS)</>\n\n5.1 Il est interdit d'interférer avec les éléments suivants:\n  - les OSD (Orbital Supply Drops)\n  - les veines d'élément\n  - le taming de Dreadnoughtus\n  - les combats ou taming de Titans engagés par d'autres joueurs\n\n5.2 Si vous tamez un Titan ou un Dreadnoughtus, annoncez-le dans le chat in-game pour informer les autres joueurs.\n\n5.3 Tout vol ou interférence sera traité au cas par cas. <RichColor Color=\"1,0,0,1\">Captures d'écran ou vidéos fortement recommandées pour prouver votre bonne foi.</>\n\n<TextStyle.White>6 - RÈGLES DISCORD</>\n\n6.1 Soyez courtois et respectueux envers tous les membres, y compris le staff. Les critiques constructives sont acceptées, mais tout manque de respect entraînera une sanction immédiate.\n\n6.2 Ne mentionnez pas ou ne contactez pas directement les admins sans raison valable.\n\n6.3 Toute publicité pour d'autres serveurs ARK, discords ou sites non affiliés est interdite\n\n6.4 Merci de lire et respecter les différents salons Discord.\n\n6.5 L'ignorance du règlement ne constitue en aucun cas une excuse."
+					}
+				]
+			}
+		],
+		"links": [
+			{
+				"text": "Discord",
+				"url": "https://discord.gg/uy3vx4C3wY"
+			},
+			{
+				"text": "Vips & Points",
+				"url": "https://rfg.tip4serv.com/"
+			},
       {
-        "link2": {
-          "text": "SITE WEB",
-          "url": ""
-        }
-      },
-      {
-        "link3": {
-          "text": "VIPS ET POINTS",
-          "url": ""
-        }
-      }
-    ]
-  }
+				"text": "Verify Discord",
+				"url": "https://discord.com/channels/1361046357879816302/1370391875894378516"
+			}
+		],
+		"version": 2
+	}
 }
